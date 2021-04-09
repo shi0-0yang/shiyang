@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:sxi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns="http://www.springframework.org/schema/beans"
+       sxi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+
+
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/spring-aop.xsd">
+
+    <bean id="methodParamsValidAndLogIntercepter" class="com.shiyang.demo.pojo.MethodParamsValidAndLogIntercepter"/>
+    <!-- 方法拦截器  proxy-target-class为true指定要创建基于子类的代理来代替基于Java接口的代理,前者为true,后者为false.(默认为false)
+        拦截controller包的所有被RequestMapper注解的方法-->
+    <aop:config proxy-target-class="true">
+        <aop:pointcut id="methodParamsValidAndLogPointcut" expression="execution(* com.shiyang.demo.controller.sysuser..*(..)) and
+    @annotation(org.springframework.web.bind.annotation.RequestMapping)"/>
+        <aop:advisor advice-ref="methodParamsValidAndLogIntercepter" pointcut-ref="methodParamsValidAndLogPointcut"/>
+    </aop:config>
+</beans>

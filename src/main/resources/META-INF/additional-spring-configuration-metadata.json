@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.String",
+      "defaultValue": "3",
+      "description": "数据源初试连接数."
+    }
+  ] }
