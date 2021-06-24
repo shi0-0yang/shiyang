@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shiyang.demo.mapper.UserLoginMapper">
+    <select id="queryAll" resultType="com.shiyang.demo.pojo.UserLogin">
+        select * from userLogin
+    </select>
+
+    <insert id="add" parameterType="com.shiyang.demo.pojo.UserLogin">
+        insert into userLogin(username,password) values (#{username},#{password})
+    </insert>
+
+    <select id="queryByName" resultType="com.shiyang.demo.pojo.UserLogin">
+        select * from userLogin where username = #{username}
+    </select>
+
+</mapper>
