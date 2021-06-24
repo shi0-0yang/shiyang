@@ -1,0 +1,13 @@
+创建多线程的几种方法：
+1、继承Thread类，重写run()方法
+2、实现Runnable接口，重写run()
+3、匿名内部类的方式
+4、带返回值的线程(实现implements  Callable<返回值类型>)
+5、定时器(java.util.Timer)
+6、线程池的实现(java.util.concurrent.Executor接口)
+7、Lambda表达式的实现(parallelStream)
+8.Spring实现多线程
+  (1)新建Maven工程导入spring相关依赖
+  (2)新建一个java配置类(注意需要开启@EnableAsync注解——支持异步任务)
+  (3)书写异步执行的方法类(注意方法上需要有@Async——异步方法调用)
+  (4)创建运行类

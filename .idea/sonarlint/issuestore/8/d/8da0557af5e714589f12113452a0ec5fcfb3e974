@@ -1,0 +1,135 @@
+
+P
+java:S4973–"9Use the "equals" method if value comparison was intended.(ŠÁ¬Å
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãü«üøÿÿÿÿ
+P
+java:S1128":Remove this unused import 'com.sun.deploy.util.ArrayUtil'.(°ã‹
+d	java:S100Á"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®êšı
+u
+java:S2293§"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡…”„ùÿÿÿÿ
+d
+java:S1871é"MThis branch's code block is the same as the block for the branch on line 482.(å¥‡
+u
+java:S2293€"YReplace the type specification in this constructor call with the diamond operator ("<>").(Å®™êıÿÿÿÿ
+D
+java:S1604“"(Make this anonymous inner class a lambda(ÔÊÆÓùÿÿÿÿ
+u
+java:S2293‹"YReplace the type specification in this constructor call with the diamond operator ("<>").(º‡åúÿÿÿÿ
+6
+java:S1659ª"Declare "b" on a separate line.(Úîüë
+l
+java:S1149Ï"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒıÿÿÿÿ
+u
+java:S2293Ö"YReplace the type specification in this constructor call with the diamond operator ("<>").(êùÂ»øÿÿÿÿ
+d	java:S100©"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( àÒ»
+l
+java:S1149Ö"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(êùÂ»øÿÿÿÿ
+d	java:S100Ë"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍæÉÛ
+3
+java:S1643Ç"Use a StringBuilder instead.(¯áËš
+4
+java:S2178d"Correct this "|" to "||".(ş“·«ùÿÿÿÿ
+
+java:S1186â"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æ¨ûÿÿÿÿ
+g	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êõ›ã
+p
+java:S2293ô"YReplace the type specification in this constructor call with the diamond operator ("<>").(Í¸–
+G
+java:S1481"+Remove this unused "result" local variable.(ì‚“¢úÿÿÿÿ
+;
+java:S1659³"Declare "n" on a separate line.(Â¼œ‘úÿÿÿÿ
+f
+java:S1149Õ"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Í»˜L
+V
+java:S1854";Remove this useless assignment to local variable "queries".(´Şîçøÿÿÿÿ
+E
+java:S1481Ã")Remove this unused "list" local variable.(Ş×†èúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ³µ´úÿÿÿÿ
+6
+java:S1659Ã"Declare "r" on a separate line.(Ø…‡ô
+f
+java:S1149Õ"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Í»˜L
+Z
+java:S2175–"CA "Map<String, Integer>" cannot contain a "int" in a "String" type.(ŠÁ¬Å
+V
+java:S1854":Remove this useless assignment to local variable "result".(ì‚“¢úÿÿÿÿ
+u
+java:S2293¯"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÔ‹¶şÿÿÿÿ
+]
+java:S2184¡"FCast one of the operands of this multiplication operation to a "long".(¯¢—É
+E
+java:S5413ı")Verify that "remove()" is used correctly.(ç“—”şÿÿÿÿ
+8
+java:S1643Æ"Use a StringBuilder instead.(ÌË¬œûÿÿÿÿ
+G
+java:S1481",Remove this unused "queries" local variable.(´Şîçøÿÿÿÿ
+>
+java:S1481œ"'Remove this unused "ch" local variable.(“‰íÌ
+o
+java:S2293©"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª¢É_
+E
+java:S1481"*Remove this unused "rooms" local variable.(ÜÈéùÿÿÿÿ
+i	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïİ›Àùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(äî›üÿÿÿÿ
+;
+java:S1659Ä"Declare "k" on a separate line.(ãäÚ‘üÿÿÿÿ
+C
+java:S1172Á",Remove this unused method parameter "pRoot".(®êšı
+=
+java:S1659™"!Declare "buy" on a separate line.(¬ö¤Ÿøÿÿÿÿ
+l
+java:S1149­"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(©¾¤¤ıÿÿÿÿ
+‡
+java:S1319¦"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¦‰ú®
+l
+java:S1149ï"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ
+2
+java:S1116I"Remove this empty statement.(ÊÖ¤Ê
+?
+java:S1659O"$Declare "maxNum" on a separate line.(—‘©Îşÿÿÿÿ
+X
+java:S2259·"AA "NullPointerException" could be thrown; "tmp" is nullable here.(“ç”ñ
+:
+java:S1659"Declare "p" on a separate line.(ñúø şÿÿÿÿ
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(°ã‹
+o
+java:S2293Õ"YReplace the type specification in this constructor call with the diamond operator ("<>").(Í»˜L
+‡
+java:S1319î"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(öÓ’
+b
+java:S1128"LRemove this unused import 'com.sun.org.apache.bcel.internal.generic.IFNULL'.(ÿ™÷¼
+i
+java:S3776¦"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(¦‰ú®
+M
+java:S1854œ"6Remove this useless assignment to local variable "ch".(“‰íÌ
+6
+java:S1659ª"Declare "c" on a separate line.(Úîüë
+Z
+java:S2175–"CA "Map<String, Integer>" cannot contain a "int" in a "String" type.(ŠÁ¬Å
+8
+java:S1659»""Declare "high" on a separate line.(ÆĞÁj
+{
+java:S1149İ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ü÷Õ©ÿÿÿÿÿ
+d
+java:S1871æ"MThis branch's code block is the same as the block for the branch on line 479.(š¤óÎ
+T
+java:S1854Ã"8Remove this useless assignment to local variable "list".(Ş×†èúÿÿÿÿ
+i	java:S100â"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¨ûÿÿÿÿ
+g
+java:S1149£"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(™ù 
+W
+java:S2184 "@Cast one of the operands of this addition operation to a "long".(Ï“Üÿ
+?
+java:S1604±"(Make this anonymous inner class a lambda(×ĞŠç
+R	java:S125×"<This block of commented-out lines of code should be removed.(¹ºá±
+d	java:S100ü"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ãİ
+T
+java:S1854"9Remove this useless assignment to local variable "rooms".(ÜÈéùÿÿÿÿ
+l
+java:S1149Ö"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(êùÂ»øÿÿÿÿ
+i
+java:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÄâœÂ
+;
+java:S1659Ä"Declare "j" on a separate line.(ãäÚ‘üÿÿÿÿ

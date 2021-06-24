@@ -1,0 +1,29 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜¨íá
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›þöýÿÿÿÿ
+T
+java:S1854"9Remove this useless assignment to local variable "stack".(û›þöýÿÿÿÿ
+X
+java:S1854"=Remove this useless assignment to local variable "hashtable".(Ë‘¾íýÿÿÿÿ
+N
+java:S1854
+"8Remove this useless assignment to local variable "str2".(ž·ÿà
+N
+java:S1854	"8Remove this useless assignment to local variable "str1".(¼žÿä
+M
+java:S1854"7Remove this useless assignment to local variable "str".(è±èÓ
+Q	java:S125"<This block of commented-out lines of code should be removed.(øËœÉ
+t
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(Õ×˜¿ùÿÿÿÿ
+>
+java:S1481"(Remove this unused "str" local variable.(è±èÓ
+?
+java:S1481	")Remove this unused "str1" local variable.(¼žÿä
+?
+java:S1481
+")Remove this unused "str2" local variable.(ž·ÿà
+I
+java:S1481".Remove this unused "hashtable" local variable.(Ë‘¾íýÿÿÿÿ
+E
+java:S1481"*Remove this unused "stack" local variable.(û›þöýÿÿÿÿ
